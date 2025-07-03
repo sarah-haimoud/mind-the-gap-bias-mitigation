@@ -10,20 +10,22 @@ We implement and compare multiple fine-tuning strategies to reduce stereotypical
 
 ## Repository Structure
 
+
+```
 .
-├── 01\_dataset\_exploration/         # Initial exploration of the StereoSet JSON dataset
-├── 02\_data\_preparation/            # Preprocessing and data augmentation steps
-├── 03\_finetuning/
+├── 01_dataset_exploration/         # Initial exploration of the StereoSet JSON dataset
+├── 02_data_preparation/            # Preprocessing and data augmentation steps
+├── 03_finetuning/
 │   ├── baseline/                   # Standard fine-tuning without mitigation
 │   ├── augmented/                  # Fine-tuning with augmented antistereotypical data
-│   ├── balanced\_augmented/         # Balanced dataset (1:1 stereotype vs antistereotype)
+│   ├── balanced_augmented/         # Balanced dataset (1:1 stereotype vs antistereotype)
 │   └── contrastive/                # Contrastive learning using positive/negative pairs
-├── 04\_evaluation/                  # Evaluation of biases after each training strategy
-├── results/                        # CSV outputs of worst stereotyped completions
+├── 04_evaluation/                  # Evaluation of biases after each training strategy
+├── results/                        # outputs
 ├── other/                          # Additional or unused notebooks
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Methods
 
