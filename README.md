@@ -15,7 +15,7 @@ I implemented and compared multiple fine-tuning strategies to reduce stereotypic
 ├── 03_finetuning/
 │   ├── baseline/                   # Standard fine-tuning without mitigation
 │   ├── augmented/                  # Fine-tuning with augmented antistereotypical data
-│   ├── balanced_augmented/         # Balanced dataset (1:1 stereotype vs antistereotype)
+│   ├── balanced_augmented/         # Balanced dataset 
 │   └── contrastive/                # Contrastive learning using positive/negative pairs
 ├── 04_evaluation/                  # Evaluation of biases after each training strategy
 ├── results/                        # outputs
