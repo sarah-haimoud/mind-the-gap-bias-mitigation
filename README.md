@@ -1,4 +1,4 @@
-# Mind the Gap – Bias Mitigation in Lightweight Transformers
+# Mind the Gap – Bias Mitigation 
 
 This project explores the detection and mitigation of **social biases** (gender, profession, race, religion) in small language models using the [StereoSet dataset](https://github.com/moinnadeem/stereoset).
 
