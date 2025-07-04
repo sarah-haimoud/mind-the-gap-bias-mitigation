@@ -37,7 +37,7 @@ We tested the following **bias mitigation strategies**:
 | **Augmented**         | Added antistereotypical versions of biased prompts       |
 | **Balanced**          | Ensured equal numbers of stereotype/antistereotype pairs |
 | **Contrastive**       | Trained on triplets (anchor, positive, negative)         |
-| **Adapters** (failed) | Attempted parameter-efficient tuning (did not work)      |
+| **Adapters** (failed) |                                                          |
 
 
 ## Evaluation
