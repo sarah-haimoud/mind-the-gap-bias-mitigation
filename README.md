@@ -28,13 +28,14 @@ I implemented and compared multiple fine-tuning strategies to reduce stereotypic
 
 We tested the following **bias mitigation strategies**:
 
-| Strategy              | Description                                              |
-| --------------------- | -------------------------------------------------------- |
-| **Baseline**          | Vanilla fine-tuning without mitigation                   |
-| **Augmented**         | Added antistereotypical versions of biased prompts       |
-| **Balanced**          | Ensured equal numbers of stereotype/antistereotype pairs |
-| **Contrastive**       | Trained on triplets (anchor, positive, negative)         |
-| **Adapters** (failed) |                                                          |
+| Strategy              | Description                                                                 |
+| --------------------- | --------------------------------------------------------------------------- |
+| **Baseline**          | Vanilla fine-tuning without mitigation                                      |
+| **Augmented**         | Added multiple paraphrased antistereotypes per example using a T5 model     |
+| **Balanced**          | One stereotype + several filtered antistereotypes per context (intentional imbalance) |
+| **Contrastive**       | Trained on triplets (anchor, positive, negative)                            |
+| **Adapters** (failed) | Attempted adapter-based mitigation (not integrated)                         |
+
 
 
 ## Evaluation
