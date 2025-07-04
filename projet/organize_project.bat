@@ -1,0 +1,34 @@
+@echo off
+REM Organisation des notebooks anglais du projet "Mind the Gap"
+
+REM Dossiers à créer
+mkdir 01_dataset_exploration
+mkdir 02_data_preparation
+mkdir 03_finetuning\baseline
+mkdir 03_finetuning\augmented
+mkdir 03_finetuning\balanced_augmented
+mkdir 03_finetuning\contrastive
+mkdir 04_evaluation
+
+REM Déplacement des fichiers
+move 01_dataset_exploration_english.ipynb 01_dataset_exploration\
+move 02_data_preparation_english.ipynb 02_data_preparation\
+move 02b_data_augmentation_english.ipynb 02_data_preparation\
+move 02c_generate_balanced_augmented_dataset_english.ipynb 02_data_preparation\
+
+move 03_fine_tuning_english.ipynb 03_finetuning\baseline\
+move 03_fine_tuning_colab_english.ipynb 03_finetuning\baseline\
+move 03b_finetune_augmented_english.ipynb 03_finetuning\augmented\
+move 03c_finetune_augmented_mlm_english.ipynb 03_finetuning\augmented\
+move 03d_finetune_balanced_mlm_english.ipynb 03_finetuning\balanced_augmented\
+move 03e_contrastive_finetune_english.ipynb 03_finetuning\contrastive\
+move 03e_contrastive_finetune_30triplets_english.ipynb 03_finetuning\contrastive\
+
+move 04_evaluation_post_finetune_english.ipynb 04_evaluation\
+move 04b_evaluation_post_augmented_english.ipynb 04_evaluation\
+move 04c_evaluation_post_balanced_english_v2.ipynb 04_evaluation\
+move 04d_evaluation_post_contrastive_english.ipynb 04_evaluation\
+move 04d_evaluation_post_contrastive_30triplets_english.ipynb 04_evaluation\
+
+echo Tous les fichiers ont été rangés dans leurs dossiers.
+pause
