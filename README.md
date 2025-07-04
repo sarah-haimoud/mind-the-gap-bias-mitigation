@@ -1,4 +1,4 @@
-# Mind the Gap – Bias Mitigation 
+# Mind the Gap – Bias Mitigation (P2)
 
 This project explores the detection and mitigation of **social biases** (gender, profession, race, religion) in small language models using the [StereoSet dataset](https://github.com/moinnadeem/stereoset).
 
